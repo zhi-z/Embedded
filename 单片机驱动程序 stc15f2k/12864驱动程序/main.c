@@ -11,7 +11,7 @@
 #include"lcd12864.h"
 
 byte code dis1[] = "    欢迎光临    ";
-byte code dis2[] = "    河池学院    ";
+byte code dis2[] = "                ";
 byte code dis3[] = "智能控制实验室  ";
 byte code dis4[] = "                ";
 
