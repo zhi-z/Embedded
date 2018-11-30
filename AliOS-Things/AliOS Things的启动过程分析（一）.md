@@ -1,6 +1,6 @@
 # AliOS Things的启动过程分析（一）
 
-在本篇文章中，我们以developerkit开发板为例，介绍AliOS Things的启动过程。AliOS Things支持多种工具链进行编译链接的方式生成可执行文件，在这里主要是以GCC的方式（更加通用）来进行介绍。建议可以先阅读AliOS Things的编译体系，对整个的编译流程有个简单的了解。[链接](https://blog.csdn.net/weixin_41863685/article/details/84388210)
+在本篇文章中，我们以developerkit开发板为例，介绍AliOS Things的启动过程。AliOS Things支持多种工具链进行编译链接的方式生成可执行文件，在这里主要是以GCC的方式（更加通用）来进行介绍。建议可以先阅读AliOS Things的编译体系，对整个的编译流程有个简单的了解。
 
 一个可执行文件生成首先需要确定宿主平台（windows、linux等）、再确定所使用的工具链、确定所有使用的组件源文件等等、最后根据指定的链接脚本进行连接生成可执行文件。而启动过程的理解，也需要从连接脚本和工具链讲起。
 
